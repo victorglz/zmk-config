@@ -1,7 +1,7 @@
 ---
 include:
-  - board: aum_left
+  - board: corne-v4_left
     shield: nice_view
     snippet: studio-rpc-usb-uart
-  - board: aum_right
+  - board: corne-v4_right
     shield: nice_view
