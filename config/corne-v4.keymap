@@ -53,10 +53,10 @@
 
         colemak-dh {
             bindings = <
-&kp TAB     &kp Q  &kp W  &kp E  &kp R         &kp T         &kp LEFT_BRACE          &kp RIGHT_BRACE        &kp Y      &kp U     &kp I      &kp O    &kp P     &kp BSPC
-&kp LSHIFT  &kp A  &kp S  &kp D  &kp F         &kp G         &kp POUND               &kp SEMI               &kp H      &kp J     &kp K      &kp L    &kp APOS  &kp ENTER
-&kp LCTRL   &kp Z  &kp X  &kp C  &kp V         &kp B         &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp N      &kp M     &kp COMMA  &kp DOT  &kp FSLH  &kp EQUAL
-                                 &kp LEFT_ALT  &kp CAPSLOCK  &kp SPACE               &kp UP                 &kp SPACE  &kp DOWN
+&kp TAB         &kp Q  &kp W  &kp E  &kp R         &kp T         &kp LEFT_BRACE          &kp RIGHT_BRACE        &kp Y      &kp U     &kp I      &kp O    &kp P     &kp BSPC
+&kp LCTRL       &kp A  &kp S  &kp D  &kp F         &kp G         &kp POUND               &kp SEMI               &kp H      &kp J     &kp K      &kp L    &kp APOS  &kp ENTER
+&kp LEFT_SHIFT  &kp Z  &kp X  &kp C  &kp V         &kp B         &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp N      &kp M     &kp COMMA  &kp DOT  &kp FSLH  &kp EQUAL
+                                     &kp LEFT_ALT  &kp CAPSLOCK  &kp LGUI                &kp UP                 &kp SPACE  &kp DOWN
             >;
         };
 
