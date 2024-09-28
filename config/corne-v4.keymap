@@ -53,28 +53,28 @@
 
         colemak-dh {
             bindings = <
-&kp TAB         &kp Q  &kp W  &kp E  &kp R         &kp T         &kp LEFT_BRACE          &kp RIGHT_BRACE        &kp Y      &kp U     &kp I      &kp O    &kp P     &kp BSPC
-&kp LCTRL       &kp A  &kp S  &kp D  &kp F         &kp G         &kp POUND               &kp SEMI               &kp H      &kp J     &kp K      &kp L    &kp APOS  &kp ENTER
+&kp TAB         &kp Q  &kp W  &kp E  &kp R         &kp T         &kp LBKT                &kp RBKT               &kp Y      &kp U     &kp I      &kp O    &kp P     &kp BSPC
+&kp LCTRL       &kp A  &kp S  &kp D  &kp F         &kp G         &kp MINUS               &kp SEMI               &kp H      &kp J     &kp K      &kp L    &kp APOS  &kp ENTER
 &kp LEFT_SHIFT  &kp Z  &kp X  &kp C  &kp V         &kp B         &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp N      &kp M     &kp COMMA  &kp DOT  &kp FSLH  &kp EQUAL
-                                     &kp LEFT_ALT  &kp CAPSLOCK  &kp LGUI                &kp UP                 &kp SPACE  &kp DOWN
+                                     &kp LEFT_ALT  &kp CAPSLOCK  &lt 1 LGUI              &lt 2 LEFT_ARROW       &kp SPACE  &kp DOWN
             >;
         };
 
         colemak-dh_without_hrm {
             bindings = <
-&kp TAB  &kp Q  &kp W  &kp F  &kp P   &kp B   &trans    &trans  &kp J   &kp L   &kp U      &kp Y    &kp SEMI  &kp BSPC
-&trans   &kp A  &kp R  &kp S  &kp T   &kp G   &trans    &trans  &kp M   &kp N   &kp E      &kp I    &kp O     &kp APOS
-&trans   &kp Z  &kp X  &kp C  &kp D   &kp V   &trans    &trans  &kp K   &kp H   &kp COMMA  &kp DOT  &kp FSLH  &trans
-                              &trans  &trans  &trans    &trans  &trans  &trans
+&none   &none  &none  &none  &none   &none   &trans    &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &none  &none
+&trans  &none  &none  &none  &none   &none   &trans    &trans  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &none  &none
+&trans  &none  &none  &none  &none   &none   &trans    &trans  &kp NUMBER_9  &kp NUMBER_0  &none         &none         &none  &trans
+                             &trans  &trans  &trans    &trans  &trans        &trans
             >;
         };
 
         qwerty {
             bindings = <
-&kp TAB  &kp Q  &kp W  &kp E  &kp R   &kp T   &trans    &trans  &kp Y   &kp U   &kp I      &kp O    &kp P     &trans
-&trans   &kp A  &kp S  &kp D  &kp F   &kp G   &trans    &trans  &kp H   &kp J   &kp K      &kp L    &kp SEMI  &trans
-&trans   &kp Z  &kp X  &kp C  &kp V   &kp B   &trans    &trans  &kp N   &kp M   &kp COMMA  &kp DOT  &trans    &trans
-                              &trans  &trans  &trans    &trans  &trans  &trans
+&none   &kp EXCLAMATION  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT  &kp CARET    &kp AMPS  &kp ASTRK  &kp LPAR  &kp RPAR  &kp MINUS  &kp EQUAL  &trans
+&trans  &none            &none   &none     &none     &none      &trans       &trans    &trans     &trans    &trans    &trans     &trans     &trans
+&trans  &none            &none   &none     &none     &none      &trans       &trans    &trans     &trans    &trans    &trans     &trans     &trans
+                                           &trans    &trans     &trans       &trans    &trans     &trans
             >;
         };
 
