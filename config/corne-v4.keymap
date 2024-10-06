@@ -53,10 +53,10 @@
 
         colemak-dh {
             bindings = <
-&kp TAB         &kp Q  &kp W  &kp E  &kp R         &kp T         &kp LBKT                &kp RBKT               &kp Y      &kp U      &kp I      &kp O    &kp P     &kp BSPC
-&kp LCTRL       &kp A  &kp S  &kp D  &kp F         &kp G         &kp MINUS               &kp SEMI               &kp H      &kp J      &kp K      &kp L    &kp APOS  &kp ENTER
-&kp LEFT_SHIFT  &kp Z  &kp X  &kp C  &kp V         &kp B         &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp N      &kp M      &kp COMMA  &kp DOT  &kp FSLH  &kp DEL
-                                     &kp LEFT_ALT  &kp CAPSLOCK  &lt 1 LGUI              &lt 2 LEFT_ARROW       &kp SPACE  &kp RIGHT
+&kp TAB     &kp Q  &kp W  &kp E  &kp R         &kp T         &kp LBKT                &kp RBKT               &kp Y      &kp U           &kp I      &kp O    &kp P     &kp BSPC
+&kp LSHIFT  &kp A  &kp S  &kp D  &kp F         &kp G         &kp MINUS               &kp SEMI               &kp H      &kp J           &kp K      &kp L    &kp APOS  &kp ENTER
+&kp LCTRL   &kp Z  &kp X  &kp C  &kp V         &kp B         &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp N      &kp M           &kp COMMA  &kp DOT  &kp FSLH  &kp DEL
+                                 &kp LEFT_ALT  &kp CAPSLOCK  &lt 1 LGUI              &lt 2 LEFT_ARROW       &kp SPACE  &kp DOWN_ARROW
             >;
         };
 
@@ -71,7 +71,7 @@
 
         qwerty {
             bindings = <
-&kp GRAVE  &kp EXCLAMATION  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT  &kp CARET    &kp AMPS  &kp ASTRK  &kp LPAR  &kp RPAR  &kp MINUS  &kp EQUAL  &trans
+&kp GRAVE  &kp EXCLAMATION  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT  &kp CARET    &kp AMPS  &kp ASTRK  &kp LPAR  &kp RPAR  &kp MINUS  &kp EQUAL  &kp BSPC
 &trans     &none            &none   &none     &none     &none      &trans       &trans    &trans     &trans    &trans    &trans     &trans     &trans
 &trans     &none            &none   &none     &none     &none      &trans       &trans    &trans     &trans    &trans    &trans     &trans     &trans
                                               &trans    &trans     &trans       &trans    &trans     &trans
